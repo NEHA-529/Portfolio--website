@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neha Natarajan | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: linear-gradient(to right, #4A148C, #880E4F);
+            color: #EDE7F6;
+            text-align: center;
+        }
+
+        header {
+            background: rgba(26, 35, 126, 0.9);
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+        }
+
+        h1 {
+            color: #EDE7F6;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #FFD54F;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #FFEB3B;
+        }
+
+        .hero {
+            padding: 50px 20px;
+        }
+
+        .hero img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 5px solid #FFD54F;
+            margin: 20px 0;
+            box-shadow: 0 0 15px rgba(255, 213, 79, 0.6);
+        }
+
+        .hero h2 {
+            font-size: 26px;
+            color: #FFD54F;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #FFD54F;
+            color: black;
+            padding: 12px 24px;
+            margin-top: 15px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #FFEB3B;
+            color: black;
+        }
+
+        section {
+            padding: 40px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 900px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+        }
+
+        h2 {
+            color: #FFD54F;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .contact-box {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 8px;
+            box-shadow: 0px 2px 8px rgba(255, 255, 255, 0.2);
+        }
+
+        .contact-box a {
+            color: #FFD54F;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .contact-box a:hover {
+            color: #FFEB3B;
+        }
+
+        footer {
+            padding: 15px;
+            background: rgba(26, 35, 126, 0.9);
+            color: #FFD54F;
+            font-weight: bold;
+            box-shadow: 0px -4px 10px rgba(255, 255, 255, 0.2);
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Neha Natarajan</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="profile_20250326_231519_0000.jpg" alt="Neha Natarajan">
+        <h2>🚀 Computer Science Student | VR & AR Enthusiast</h2>
+        <p>Passionate about building innovative tech solutions.</p>
+        <a href="resume.pdf" class="btn">📄 Download CV</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>B.Sc. Computer Science student with expertise in Python, Java, and Data Science.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills & Technologies</h2>
+        <ul>
+            <li>💻 Programming: Python, Java, JavaScript</li>
+            <li>🕶️ Technology: Virtual Reality (VR), Augmented Reality (AR)</li>
+            <li>⚙️ Frameworks: React.js, Node.js</li>
+            <li>🗣️ Languages: Tamil, English</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p><strong>🏆 VR & AR in Everyday Life - 2nd Place</strong></p>
+        <p>Developed an innovative VR/AR application that enhances real-world experiences by integrating AI-driven interactions.</p>
+
+        <p><strong>📱 Digital Love Quest (Android App)</strong></p>
+        <p>An interactive mobile app designed for couples, offering challenges and surprises.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-box">
+            <p>📧 <a href="mailto:imneha481@gmail.com">imneha481@gmail.com</a></p>
+            <p>💻 <a href="https://github.com/NEHA-529">GitHub</a></p>
+            <p>🔗 <a href="https://linkedin.com/in/neha-n-626927293">LinkedIn</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Neha Natarajan. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
